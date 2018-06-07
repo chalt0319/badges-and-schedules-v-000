@@ -8,7 +8,9 @@ def badge_maker(names)
   end 
 end   
 
-def 
+def batch_badge_creator(names)
+
+end 
 
 def assign_rooms(names)
   counter = 1 
