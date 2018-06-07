@@ -9,8 +9,8 @@ def badge_maker(names)
 end   
 
 def assign_rooms(names)
+  counter = 1 
   names.each do |array|
-    counter = 1 
     puts "Hello, #{array}! You'll be assigned to room #{counter}"
     counter += 1 
   end 
