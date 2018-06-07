@@ -7,7 +7,8 @@ def badge_maker(names)
     puts "Hello, my name is #{array}."
   end 
 end   
-  
+
+def badge_batch_creator(names)
   name.each do |array|
     counter = 1 
     puts "Hello, #{array}! You'll be assigned to room #{counter}"
