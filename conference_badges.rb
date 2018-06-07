@@ -8,6 +8,8 @@ def badge_maker(names)
   end 
 end   
 
+def 
+
 def assign_rooms(names)
   counter = 1 
   names.each do |array|
