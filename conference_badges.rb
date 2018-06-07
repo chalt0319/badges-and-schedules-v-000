@@ -8,8 +8,8 @@ def badge_maker(names)
   end 
 end   
 
-def badge_batch_creator(names)
-  name.each do |array|
+def assign_rooms(names)
+  names.each do |array|
     counter = 1 
     puts "Hello, #{array}! You'll be assigned to room #{counter}"
     counter += 1 
