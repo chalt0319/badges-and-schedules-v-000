@@ -6,15 +6,13 @@ def badge_maker(name)
     return "Hello, my name is #{name}."
 end   
 
-badge_maker(name)
-
 def batch_badge_creator(attendees)
+  new_array = []
   attendees.each do |array|
-    return "Hello, my name is #{array}."
+    new_array.push("Hello, my name is #{array}.")
   end 
+  new_array
 end 
-
-batch_badge_creator(attendees)
 
 def assign_rooms(attendees)
   counter = 1 
@@ -24,11 +22,7 @@ def assign_rooms(attendees)
   end 
 end
 
-assign_rooms(attendees)
-
 def printer(attendees)
   batch_badge_creator(attendees)
   assign_rooms(attendees)
 end
-
-printer(attendees)
