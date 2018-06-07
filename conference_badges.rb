@@ -10,7 +10,7 @@ badge_maker(name)
 
 def batch_badge_creator(attendees)
   attendees.each do |array|
-    return "Hello, my name is #{array}."
+    "Hello, my name is #{array}."
   end 
 end 
 
